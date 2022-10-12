@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulier</title>
+</head>
+<body>
+    <p>wat is jouw naam</p>
+    <form action="/action_page.php">
+        <label for="vnaam">voornaam:</label><br>
+        <input type="text" required pattern="[a-zA-Z]*" id="vnaam" name="vnaam"><br>
+        <label for="anaam">achternaam:</label><br>
+        <input type="text" required pattern="[a-zA-Z]*" id="anaam" name="anaam"><br>
+        <br>
+     <p>welke sex ben jij</p>
+     <br>
+        <input type="radio" id="sex1" name="sex" value="man" checked="checked">
+        <label for="sex1">man</label><br> 
+        <input type="radio" id="sex2" name="sex" value="vrouw">
+        <label for="sex2">vrouw</label><br> 
+        <input type="radio" id="sex3" name="sex" value="transgender">
+        <label for="sex3">transgender</label><br>
+        <input type="radio" id="sex4" name="sex" value="genderfluid">
+        <label for="sex4">genderfluid</label><br>
+        <input type="radio" id="sex5" name="sex" value="anders">
+        <label for="sex1">anders</label><br> 
+        <br>
+        <p>schrijf hier jouw straatnaam, huisnummer en je postcode in</p>
+        <label for="straatnaam_huisnummer">straatnaam en huisnummer</label><br>
+        <input type="tekst" id="straatnaam_huisnummer" name="straatnaam_huisnummer"><br>
+        <label for="postcode">postcode (zonder spatie)</label><br>
+        <input type="tekst" id="postcode" name="postcode" maxlength="6">
+        <br><br>
+        <p>in welke land woon je, en in welke stad</p>
+        <label for="land">land</label><br>
+        <input type="tekst" id="land" name="land"><br>
+        <label for="stad">stad</label><br>
+        <input type="tekst" id="stad" name="stad"><br>
+        <br>
+        <p>voer hier uw bsn nummer in</p>
+        <label for="bsn">persoonsnummer</label><br>
+        <input type="text" id="bsn" name="bsn" maxlength="9"><br>
+        <br><br>
+        <p>kies hier waar u naartoe gaat</p>
+        <label for="Landen">kies uw land uit</label>
+    <select id="Landen">
+      <option value="kies">kies</option>
+      <option value="Dubai">Dubai</option>
+      <option value="Spanje">Spanje</option>
+      <option value="Hawaii">Hawaii</option>
+      <option value="Frankrijk">Frankrijk</option>
+      <option value="Marocco">Marocco</option>
+      <option value="Curaçao">Curaçao</option>
+    </select><br><br>
+    <P>kies hier uw datum van vertrek</P>
+    <label for="vertrek">vertrek datum</label>
+    <input type="date" id="vertrek" name="vertrek" min="2022-09-16"><br>
+    <label for="retour">retour</label>
+    <input type="date" id="retour" name="retour" min="2022-09-17"><br><br>
+    <label for="personen">met hoeveel mensen gaat u (max 4)</label><br>
+    <input type="number" id="personen" name="personen" min="1" max="4" maxlength="1"><br>
+    <br>
+    <p>maak hier een account aan</p>
+    <label for="email">email</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="password">password</label><br>
+    <input type="password" id="password" name="password">
+        <br><br>
+        <input type="submit" value="verzend">
+      </form> 
+</body>
+</html>

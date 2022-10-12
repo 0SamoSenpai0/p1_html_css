@@ -1,0 +1,12 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-container2{
+    display: flex;
+    width: 1200px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}

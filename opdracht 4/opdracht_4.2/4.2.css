@@ -1,0 +1,58 @@
+header{
+    background-image: url(img/fortniteheader.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    width: 100vw;
+    height: 33vh;
+}
+h1{
+    font-size:24px;
+    color:snow;
+    font-weight:bold;
+    font-style:italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:red;
+    border-left-width: 10px;
+}
+h2{
+    font-size:20px;
+    color:#0000ff;
+    font-weight:bold;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:black;
+    border-left-width: 10px;
+}
+h3{
+    font-size:16px;
+    color:teal;
+    font-weight:bold;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:black;
+    border-left-width: 10px;
+}
+p{
+    color:#4D4D4D;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:black;
+    border-left-width: 10px;
+} 
+a{
+    color:#8A2BE2;
+    text-decoration-line:none;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:black;
+    border-left-width: 10px;
+}
+.paragraaf_1 {font-weight:bold;
+    color:hotpink;
+}
+img{
+    width:50vw
+}

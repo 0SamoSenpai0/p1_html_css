@@ -1,0 +1,15 @@
+header{
+    background-color:#006445;
+    width: 100vw;
+    height: 14vh;
+}
+img{
+    background:url(img/logo-techniek-college.png) left 20px, right 50px;
+    background-position: center;
+    width:14vw;
+    height:14vh;
+}
+th{
+    border: 1px solid black;
+    border: 
+}

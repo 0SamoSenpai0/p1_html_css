@@ -5,8 +5,8 @@
 }
 .flex-container2{
     display: flex;
-    width: 1200px;
+    width: 1400px;
     flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    justify-content: space-evenly;
 }

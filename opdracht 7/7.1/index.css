@@ -1,11 +1,38 @@
-@media only screen and (max-width: 992px) {
-    html {
-        font-size: 24px;
-    }
-    header{
-        background-color: red;
-    }
+*{
+    margin: 0%;
+    padding: 0%;
 }
-header{
-    background-color:blue;
+@media only screen and (min-width: 100px) {
+    .logo {background: #686de0;}
+    .tekst1{background: #7ed6df}
+    .tekst2{background: #e056fd;}
+    .tekst3{background: #30336a;}
+}
+@media only screen and (min-width: 601px) {
+    .logo{background: #ff6b81;}
+    .tekst1{background: #fe4657;}
+    .tekst2{background: #5352ec;}
+    .tekst3{background: #3742f9;}
+}
+@media only screen and (min-width: 1200px) {
+    .logo {background: red;}
+    .tekst1{background: yellow}
+    .tekst2{background: orange;}
+    .tekst3{background: green;}
+}
+.logo{
+    color: black;
+    height: 10vh;
+}
+.tekst1{
+    color: black;
+    height: 30vh;
+}
+.tekst2{
+    color: black;
+    height: 30vh;
+}
+.tekst3{
+    color: black;
+    height: 30vh;
 }

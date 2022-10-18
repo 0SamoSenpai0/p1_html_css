@@ -6,6 +6,6 @@ function changecolor() {
 function changecolor2(){
     document.getElementById("tekst2").style.color = "blue";
 }
-function calculator(){
-
+function calculator() {
+let sum = 3 + 22; 
 }
